@@ -1,0 +1,158 @@
+/* 
+Music Player CSS FILE
+					*/
+
+/*body structure*/
+body {/*这个就是iphone手机那个background,如果你们的图片跟我的文件夹路径不一样修改一下就好*/
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+}
+
+/*screen class detailed parameters*/
+/*iPhone背景不用动参数*/
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 105px 23px;
+}
+
+/*head-bar info detailed parameters*/
+/*浅蓝色背景参数*/
+.head-bar {
+	width: 300px;
+	height: 350px;
+	border-style: hidden; 
+	background-color: #D0E5F4;  
+}
+
+/*back-button info detailed parameters*/
+/*以下几个function都是< Contacts的设置*/
+.back-button {
+	margin-left: -270px;
+	margin-top: -350px;
+	text-align: center; 
+}
+
+.material-icons.md-50{
+	font-size: 40px;
+}
+
+.Contacts{
+	margin-top: -32px;
+	margin-left: 90px;
+	font-family: Verdana;
+	color: #187ECA;
+}
+
+.back-button a{
+	text-decoration: none;
+}
+
+
+/*Edit 右上角编辑*/
+.Edit{
+	font-family: Verdana;
+	color: #187ECA;
+	margin-left: 260px;
+	margin-top:-20px;
+}
+
+.profile-image{
+	margin-top: 40px;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+}
+
+.call-icon{
+	width: 40px;
+	height: 40px;
+	margin-left: 45px;
+	margin-top: 30px;
+	border-style: hidden; 
+	background-color: #F7ECEC;
+	border-radius: 50%; /*oval*/
+}
+
+.message-icon
+{
+	width: 45px;
+	height: 40px;
+	margin-left: 40px;
+	margin-top: 30px;
+	border-style: hidden; 
+	background-color: #F7ECEC;
+	border-radius: 50%; 
+}
+
+.position-icon{
+	width: 40px;
+	height: 40px;
+	margin-left: 50px;
+	margin-top: -30px;
+	border-style: hidden; 
+	background-color: #F7ECEC;
+	border-radius: 50%; 
+}
+
+.call{
+	font-family: Verdana;
+	color: #187ECA;
+	font-size: 10pt;
+	margin-left: 50px;
+	font-weight: bold;
+}
+
+.message{
+	font-family: Verdana;
+	color: #187ECA;
+	font-size: 10pt;
+	font-weight: bold;
+	margin-left: 121px;
+	margin-top: -18px;
+}
+
+.position{
+	font-family: Verdana;
+	color: #187ECA;
+	font-size: 10pt;
+	margin-left: 216px;
+	margin-top: -18px;
+	font-weight: bold;
+
+}
+
+p{
+	margin: 0 auto
+}
+
+.phone{
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 10pt;
+}
+
+.number{
+	margin-top: 5px;
+	padding-left:10px;
+	color: #187ECA;
+	border-bottom: .5px solid black;
+
+}
+
+.light-icon{
+	width: 50px;
+	height: 50px;
+	margin-left: 110px;
+	margin-top: 20px;
+	padding:10px;
+	border-radius: 30%;
+	border-style: ridge;
+}
+
+.light{
+	margin-left:130px;
+	color: #187ECA;
+	font-weight: bold;
+}
