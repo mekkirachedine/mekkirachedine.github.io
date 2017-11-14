@@ -7,6 +7,7 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 	background-image: url("images/iphoneOL.jpg");
 	background-repeat: no-repeat;
 	font-family: Avenir, sans-serif;
+	
 }
 
 /*screen class detailed parameters*/
@@ -15,15 +16,19 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 	height: 530px;
 	width: 300px;
 	margin: 105px 23px;
+	background-color: #D0E5F4;
 }
 
 /*head-bar info detailed parameters*/
 /*浅蓝色背景参数*/
 .head-bar {
 	width: 300px;
-	height: 350px;
+	height: 40px;
 	border-style: hidden; 
-	background-color: #D0E5F4;  
+}
+
+.material-icons.md-50{
+	font-size: 40px;
 }
 
 /*back-button info detailed parameters*/
@@ -114,13 +119,13 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 }
 
 .position{
+	text-align: center;
 	font-family: Verdana;
 	color: #187ECA;
 	font-size: 10pt;
-	margin-left: 216px;
+	margin-left: 198px;
 	margin-top: -18px;
 	font-weight: bold;
-
 }
 
 p{

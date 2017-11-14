@@ -14,15 +14,12 @@
    <!-- This is the screen class where all actions are inside of it -->
    <div id="screen">
          <!-- Head-bar Class -->
-         <div class="head-bar"> </div>
-
-         <!-- Back Button class -->
-         <div class="back-button">
-               <!-- Once the button has been clicked, it backs to the previous html link-->
-               <a href="emergencylist.html"><i class="material-icons md-50" style="color: #187ECA">keyboard_arrow_left</i><p class="Contacts">Contacts</p></a>
+         <div class="head-bar"> 
+         	<a href="javascript:history.go(-1)">
+            <i class="material-icons md-50" style="color: white">keyboard_arrow_left</i></a>
+            <a href="profile.html">
+            <i class="material-icons md-50" style="color: white; position: relative; left: 208px;">home</i></a>
          </div>
-
-         <p class="Edit">Edit</p>
 
          <!-- Profile Image Parameters -->
          <center><img class ="profile-image" src="images/profile-image.jpg" alt="profile-image"></center>
@@ -39,7 +36,7 @@
          <a href = "task2.html"><img class ="position-icon" src="images/map.png" alt="position"></a>
          <p class="call">Call</p>
          <p class="message">Message</p>
-         <p class="position">Position</p>
+         <p class="position">Send Position</p>
          <p class="phone">Phone</p>
          <p class="number">573-823-5692</p>
 

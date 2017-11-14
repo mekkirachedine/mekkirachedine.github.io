@@ -1,9 +1,8 @@
 <html>
 <header>
 	<!-- Title of page and linking to the CSS file-->
-   <title>Emergency Contacts Page</title>
+   <title>Emergencies Search Results</title>
    <link rel="stylesheet" type="text/css" href="project.css"/>
-
    <!-- Imported material icons (phone, message icon et.c) -->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
@@ -14,57 +13,46 @@
 
    <body>
       <div id="screen">
+         <img src="images/emergency_lsit.jpg" id="img2" height= "530" width= "300"/>
       	<div class="head-bar">
             <!-- Link back to whatever the main page is called; just called it 'main' for now but the back arrow should go back one page once they are all together -->
             <a href="profile.html">
             <i class="material-icons md-50" style="color: white">keyboard_arrow_left</i></a>
             <a href="profile.html">
-            <i class="material-icons md-50" style="color: white; position: relative; left: 208px;">home</i></a>    		
+            <i class="material-icons md-50" style="color: white; position: relative; left: 208px;">home</i></a>
       	</div>
 
-         <h1 id="header">Emergency Contacts</h1>
+         <h1 id="header">Relevant Links</h1>
 
       	<!-- code for the emergency contact list begins here -->
-         <div id=emergency-list>
+         <div id=otherList>
 
 
          	<!-- each section/div container contains the call button, the name and the message button -->
-         	<div class="div_emergency">
-         		<a href="Tingyi_html.html"><div class="emergency-names">Name: Melania</div></a>
+         	<div class="divLink">
+         		<a href = "TingyiP6_html.html" class="relevantLink">Finger Injuries</a>
+               <img src="images/finger.jpg" class="emergency" height= "100" width= "150"/>
          	</div>
 
 
 
-         	<div class="div_emergency">
-         		<div class="emergency-names">Name: Ivanka</div>
+            <div class="divLink">
+               <a href="KatieP6_html.html" class="relevantLink">Allergic Reactions</a>
+               <img src="images/allergic.jpg" class="emergency" height= "100" width= "150"/>
          	</div>
 
 
 
-         	<div class="div_emergency">
-         		<div class="emergency-names">Name: Eric</div>
-         	</div>
 
 
 
-         	<div class="div_emergency">
-         		<div class="emergency-names">Name: Tiffany</div>
-         	</div>
-
-
-
-         	<div class="div_emergency">
-         		<div class="emergency-names">Name: Jack</div>
-         	</div>
 
 
          
          </div>
 
          <!-- the 911 button-->
-         <div>
-         	<button class="nine_one_one">911</button>
-         </div>
+
 
       </div>
    </body>
