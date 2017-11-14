@@ -32,12 +32,6 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 }
 
 /*back-button info detailed parameters*/
-/*以下几个function都是< Contacts的设置*/
-.back-button {
-	margin-left: -270px;
-	margin-top: -350px;
-	text-align: center; 
-}
 
 .material-icons.md-50{
 	font-size: 40px;
@@ -50,21 +44,8 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 	color: #187ECA;
 }
 
-.back-button a{
-	text-decoration: none;
-}
-
-
-/*Edit 右上角编辑*/
-.Edit{
-	font-family: Verdana;
-	color: #187ECA;
-	margin-left: 260px;
-	margin-top:-20px;
-}
-
 .profile-image{
-	margin-top: 40px;
+	margin-top: 25px;
 	border-radius: 50%;
 	width: 150px;
 	height: 150px;
@@ -80,21 +61,10 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 	border-radius: 50%; /*oval*/
 }
 
-.message-icon
-{
-	width: 45px;
-	height: 40px;
-	margin-left: 40px;
-	margin-top: 30px;
-	border-style: hidden; 
-	background-color: #F7ECEC;
-	border-radius: 50%; 
-}
-
 .position-icon{
 	width: 40px;
 	height: 40px;
-	margin-left: 50px;
+	margin-left: 130px;
 	margin-top: -30px;
 	border-style: hidden; 
 	background-color: #F7ECEC;
@@ -123,7 +93,7 @@ body {/*这个就是iphone手机那个background,如果你们的图片跟我的�
 	font-family: Verdana;
 	color: #187ECA;
 	font-size: 10pt;
-	margin-left: 198px;
+	margin-left: 180px;
 	margin-top: -18px;
 	font-weight: bold;
 }
@@ -135,7 +105,8 @@ p{
 .phone{
 	margin-top: 20px;
 	margin-left: 10px;
-	font-size: 10pt;
+	font-size: 13pt;
+	font-family: Verdana;
 }
 
 .number{

@@ -36,7 +36,8 @@ div#head-bar ul li a{
 
 
 div#head-bar ul li a:hover{
-	background-color: green;
+	background-color: #ED2539;
+	cursor: pointer;
 }
 
 div#head-bar ul li ul li{
@@ -57,12 +58,17 @@ div#head-bar ul li:hover ul li {
 
 #personal_info
 {
-	background-color: rgb(0,0,120);
+	background-color: #5CB1AE;
+	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: bold;
 }
 
 #contacts
-{
-	background-color: rgb(150,0,0);
+{	font-family: Verdana;
+	font-size: 9pt;
+	font-weight: bold;
+	background-color: #C8003C;
 }
 
 
@@ -70,19 +76,21 @@ div#head-bar ul li:hover ul li {
 	height: 50px;
 	width: 150px;
 	position: relative;
-	top: 60px;
+	top: 48px;
 	left: 30px;
 	text-align: left;
-	font-style: Sans-serif;
-	font-size: 22px;
+	font-family: Verdana;
+	font-size: 16pt;
+	font-weight: bold;
 }
 
 .profile_photo{
 	position: relative;
-	top: 30px;
-	left: 200px;
+	top: 20px;
+	left: 210px;
 	shape-outside: circle();
-	z-index: 0; position: relative;
+	z-index: 0; 
+	position: relative;
 	border-radius: 30px;
 }
 
@@ -101,7 +109,11 @@ div#head-bar ul li:hover ul li {
 	margin: 15px 0px 0px 0px;
 	padding-bottom: 5px;
 	padding-top: 5px;
-	background-color: rgb(0,200,255);
+	background-color: #A5D2D0;
+	font-family: Verdana;
+	font-weight: bold;
+	font-size: 11pt;
+	color: #514F49;
 }
 
 .favs{
@@ -109,8 +121,9 @@ div#head-bar ul li:hover ul li {
 	width: 300px;
 	height: 100px;
 	padding-bottom: 3px;
-	background-color: rgb(255,255,255);
+	background-color: #F9F9F9;
 	overflow-y: auto;
+
 }
 
 .favs a{
@@ -127,9 +140,9 @@ div#head-bar ul li:hover ul li {
 .last{
 	margin: 0px 25px 0px 0px;
 	width: 300px;
-	height: 18px;
+	height: 20px;
 	padding-bottom: 3px;
-	background-color: rgb(255,255,255);
+	background-color: #F9F9F9;
 }
 
 .last a{
