@@ -2,9 +2,12 @@
 <header>
    <title>Profile</title>
    <link rel="stylesheet" type="text/css" href="profile.css"/>   
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 </header>
    <body>
       <div id="screen">
+      	<!--
          <div id="head-bar">
          <ul>
             <li><a id = "personal_info">Edit Profile</a>
@@ -21,36 +24,48 @@
             </li>
          </ul>
          </div>
+     -->
          <div class="profile_name">
             Hi, Donald
          </div>
          
          <div>
-            <img src="images/trump.jpg" alt="Go_Master" width=70px height=70px class="profile_photo">
+         	<a href="add_emergency.html">
+         		<img src="images/trump.jpg" alt="Go_Master" width=70px height=70px class="profile_photo">
+            </a>
          </div>
          <div id="profile_search">
-              <input type="text" class="tftextinput" name="q" size="21" maxlength="120">
-              <a href="intermediate_page.html"><input type="submit" value="search in App" class="tfbutton"></a>
+              <input type="text" class="tftextinput" name="q" size="21" maxlength="80">
+              <a href="intermediate_page.html"><input type="submit" value="search" class="tfbutton"></a>
+              <!--
               <a href="https://www.google.com/"><input type="submit" value="search in Google" class="tfbutton"></a>
+          -->
          </div>   
          <div class="pages">Favorite Pages</div>
          <div class="favs">
          	<a href = "TingyiP6_html.html">Finger Injuries</a>
          	<a href = "KatieP6_html.html">Allergic Reactions</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
-         	<a href = "emergencylist.html">Sprained Ankle</a>
+         	<a href = "">Sprained Ankle</a>
+         	<a href = "">Broken Arm</a>
+         	<a href = "">Concussion</a>
+         	<a href = "">Snake bite</a>
+         	<a href = "">Jellyfish sting</a>
+         	<a href = "">Hypothermia</a>
+         	<a href = "">Heat Stroke</a>
          </div>
          <div>
             <div class="pages">Last Viewed</div>
             <div class="last">
                <a href = "TingyiP6_html.html">Finger Injuries</a>
             </div>
+         </div>
+         <div class="Emergency">
+         	<a href="emergencylist.html">
+         	<i class="glyphicon glyphicon-user" style ="font-size:20px"></i>
+         	<p class="word">Emergency</p>
+         	</a>
          </div>   
+
       </div>
    </body>
 </html>

@@ -46,6 +46,14 @@ body {
 	font-weight: bold;
 }
 
+.description {
+	position: relative;
+	font-family: Verdana;
+	font-size: 11pt;
+	font-weight: bold;
+	padding-left: 20px;
+}
+
 /*Symptoms info detailed parameters*/
 img {
 	display: block;

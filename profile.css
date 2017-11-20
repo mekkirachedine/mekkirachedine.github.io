@@ -52,7 +52,7 @@ div#head-bar ul li:hover ul li {
 #screen {
 	height: 530px;
 	width: 300px;
-	margin: 105px 23px;
+	margin: 106px 31px;
 	background-color: #D0E5F4;
 }
 
@@ -71,6 +71,27 @@ div#head-bar ul li:hover ul li {
 	background-color: #C8003C;
 }
 
+.Emergency{
+	width: 220px;
+	height: 50px;
+	border-style: none;
+	background-color: white;
+	text-align: left;
+	font-family: Verdana;
+	color: black;
+	margin-left: 40px;
+	margin-top: 20px;
+	border-radius: 20px;
+	padding: 12px 5px;
+}
+
+.word{
+	color: #C52528;
+	font-weight: bold;
+	font-size: 20pt;
+	margin-left: 30px;
+	margin-top: -28px;
+}
 
 .profile_name{
 	height: 50px;
@@ -84,9 +105,13 @@ div#head-bar ul li:hover ul li {
 	font-weight: bold;
 }
 
+.glyphicon{
+	margin-left: 5px;
+}
+
 .profile_photo{
 	position: relative;
-	top: 20px;
+	top: -20px;
 	left: 210px;
 	shape-outside: circle();
 	z-index: 0; 
@@ -101,10 +126,12 @@ div#head-bar ul li:hover ul li {
 	background-color:#a3bfcf;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	top: -20px;
 }
 
 .pages{
 	position: relative;
+	top: -20px;
 	width: 300px;
 	margin: 15px 0px 0px 0px;
 	padding-bottom: 5px;
@@ -121,12 +148,15 @@ div#head-bar ul li:hover ul li {
 	width: 300px;
 	height: 100px;
 	padding-bottom: 3px;
+	font-family: Verdana;
 	background-color: #F9F9F9;
 	overflow-y: auto;
-
+	position: relative;
+	top: -20px;
 }
 
 .favs a{
+	font-size: 11pt;
 	display: block;
 	color: black;
 	padding-top: 3px;
@@ -140,12 +170,16 @@ div#head-bar ul li:hover ul li {
 .last{
 	margin: 0px 25px 0px 0px;
 	width: 300px;
-	height: 20px;
-	padding-bottom: 3px;
+	height: 23px;
+	font-family: Verdana;
+	padding-bottom: 5px;
 	background-color: #F9F9F9;
+	position: relative;
+	top: -20px;
 }
 
 .last a{
+	font-size: 11pt;
 	display: block;
 	color: black;
 	padding-top: 3px;
@@ -185,8 +219,8 @@ div#head-bar ul li:hover ul li {
 	padding:20px;
 }
 .tftextinput{
-	width: 250px;
-	margin: 0px 25px;
+	width: 200px;
+	margin: 0px 5px;
 	padding: 5px 0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:14px;
@@ -195,13 +229,15 @@ div#head-bar ul li:hover ul li {
 	border-bottom-left-radius: 5px 5px;
 	border-top-right-radius: 5px 5px;
 	border-bottom-right-radius: 5px 5px;
+	display: inline-block;
 }
 .tfbutton {
-	margin-left: 32px;
-	margin-top: 7px;
-	padding: 5px 15px;
+	width: 70px;
+	margin-left: 3px;
+	margin-top: 3px;
+	padding: 5px 5px;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:10px;
+	font-size: 10px;
 	outline: none;
 	cursor: pointer;
 	text-align: center;

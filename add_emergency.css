@@ -1,0 +1,82 @@
+/* 
+Music Player CSS FILE??
+					*/
+
+body {
+	background-image: url("images/iphoneOL.jpg");
+	background-repeat: no-repeat;
+	font-family: Avenir, sans-serif;
+
+}
+
+.head-bar
+{
+	width: 300px;
+	height: 80px;
+	border-style: hidden;  
+	background-color: #5CB1AE;
+}
+
+#screen {
+	height: 530px;
+	width: 300px;
+	margin: 98px 23px;
+	position: absolute;
+	background-color: #D0E5F4;
+	z-index: 0;
+	position: absolute;
+}
+
+.title{
+	margin-top: -3px;
+	text-align: center;
+	font-size: 18pt;
+	font-weight: bold;
+	font-family: Verdana;
+	color: white;
+}
+
+.material-icons.md-50{
+	font-size: 40px;
+}
+
+.material-icons.md-50{
+	font-size: 40px;
+}
+
+.pimage{
+	text-align: center;
+}
+
+.profile-image{
+	margin-top: 15px;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+
+}
+
+.personal{
+	display: inline-block;
+}
+
+input{
+	width: 100%;
+}
+
+#save{
+	background-color: #5CB1AE;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: Verdana;
+}
+
+.save{
+	margin-top: -10px;
+	margin-left: 115px;
+}

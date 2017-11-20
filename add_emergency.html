@@ -1,38 +1,49 @@
 <html>
 <header>
    <!--<i class="material-icons">pause</i>-->
-   <title>Add emergency contact</title>
-   <link rel="stylesheet" type="text/css" href="emergency.css"/>
+   <title>Update information</title>
+   <!-- CSS file is named as add_emergency.css-->
+   <link rel="stylesheet" type="text/css" href="add_emergency.css"/>
+   <!--<link rel="stylesheet" type="text/css" href="emergency.css"/>-->
    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 </header>
+
 	<body>
 	<div id="screen">
-		<div class="container">  
+		<div class="head-bar" >
+            <a href="javascript:history.go(-1)">
+            <i class="material-icons md-50" style="color: white">keyboard_arrow_left</i></a>
+
+            <a href="profile.html">
+            <i class="material-icons md-50" style="color: white; position: relative; left: 208px;">home</i></a>
+            <p class=title>Personal Profile</p> 
+         </div>
+		
 		  <form id="contact" action="" method="post">
-		    <h3>Add Contact</h3>
-		    <h4>Contact us for custom quote</h4>
-		    <fieldset>
-		      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
-		    </fieldset>
-		    <fieldset>
-		      <input placeholder="Your Email Address  (optional)" type="email" tabindex="2" required>
-		    </fieldset>
-		    <fieldset>
-		      <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
-		    </fieldset>
-		    <fieldset>
-		      <input placeholder="Your Web Site (optional)" type="url" tabindex="4" required>
-		    </fieldset>
-		    <fieldset>
-		      <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
-		    </fieldset>
-		    <fieldset>
-		      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-		    </fieldset>
+		  	<div class="pimage">
+			  	<img class="profile-image" src="images/profile-image.jpg" alt="profile-image">
+			 </div>
+
+		  	<div class="personal">
+				Name:<input id="firstQ" type="text" name="Name" size="30" value=""><br>
+				Age:<input id="secondQ" type="text" name="Name" size="32" value=""><br>
+				Occupation:<input id="thirdQ" type="text" size="24" name="Name" value=""><br>
+				Climate:<input id="fourthQ" type="text" size="28" name="Name" value=""><br>
+
+
+				Allergies:<input id="fifthQ" type="text" name="Name" value=""><br>
+				Chronic Diseases:<input id="sixthQ" type="text" name="Name" value=""><br>
+				Past Injuries:<input id="seventhQ" type="text" name="Name" value=""><br>
+			</div>
 		  </form>
-		</div>
+
+		  <div class="save">
+		 	 <button id="save" onclick="Save()">Save</button>
+		  </div>
+	
 	</div>
+	<script type="text/javascript" src="add_emergency.js"></script>
 	</body>
 
 </html>
